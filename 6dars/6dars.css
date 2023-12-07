@@ -1,0 +1,52 @@
+body {
+    background-color: blue;
+}
+
+.box {
+    width: 500px;
+    height: 550px;
+    background-color: rgb(208, 0, 3);
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+
+.box::before {
+    content: "BLACWOLF.TV ";
+    position: absolute;
+    /* top: 100px; */
+    left: 60px;
+    font-size: 50px;
+}
+tr
+.BOX_ONE::before {
+    content: "ALL OR NOTHING";
+}
+
+.box_grup{
+width:300px;
+height:30px;
+color: gold;
+background-color: gray;
+border: transparent;
+position: absolute;
+top: 300px;
+left: 580px;
+}
+.three {
+    width: 70px;
+    height: 50px;
+    background-color: gold;
+    border: transparent;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+
+}
+
+.three:hover {
+    box-shadow: 6px 6px 6px 6px rgb(187, 255, 0);
+    color: blue;
+    background-color: rgb(161, 165, 42);
+
+}
